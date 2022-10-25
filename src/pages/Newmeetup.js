@@ -1,5 +1,7 @@
 function Newmeetup() {
-  return <h1>Newmeetup page</h1>;
+  return (
+    <>    </>
+  )
 }
 
 export default Newmeetup;

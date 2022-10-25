@@ -1,5 +1,11 @@
+import { Newmeetupsession } from "../components/Meeup/Newmeetup";
+
 function Fevmeetup() {
-  return <h1>ToDo page</h1>;
+  return (
+    <>
+    <Newmeetupsession/>
+    </>
+  )
 }
 
 export default Fevmeetup;
