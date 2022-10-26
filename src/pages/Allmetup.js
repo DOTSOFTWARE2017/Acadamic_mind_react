@@ -1,8 +1,8 @@
-import { Meetuplist } from "../components/Meeup/MeetupList";
+import { Meetuplist } from "../components/Meetup/MeetupList";
 function Allmeetup() {
   const Dummy_data = [
     {
-      id:1,
+      id: 1,
       img: "https://en.wikipedia.org/wiki/File:Bhadrakali_Amman,_Sivakasi2.jpg",
       About:
         "Sivakasi is a city and Municipal Corporation in Virudhunagar District in the Indian state of Tamil Nadu. This city is known for its firecracker, matchbox and printing industries. Sivakasi city alone meets about 90% fire cracker requirements of India. ",
@@ -21,8 +21,7 @@ function Allmeetup() {
 
   return (
     <>
-      
-     <Meetuplist meetups={Dummy_data}/>
+      <Meetuplist meetups={Dummy_data} />
     </>
   );
 }
